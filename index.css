@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+  height: 100vh;
+ background-image: url(goat.png);
+  
+}
+button{
+    background: #3498db;
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #1a181a;
+    font-size: 21px;
+    padding: 8px 19px 8px 20px;
+    text-decoration: none;
+    
+  }
+  #increment-btn {
+ background-color: darkred;
+  }
+  #save-btn {
+    background-color: darkgreen;
+     }
+  
+  .increment-btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .maindiv{
+margin:auto;
+border: 3px solid;
+width: 80%;
+background-color: aqua;
+border-radius: 10px;
+  }
